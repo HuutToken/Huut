@@ -22,7 +22,7 @@ const PostsDetails = () => {
     const dispatch = useDispatch()
     const User = useSelector((state) => state.currentUserReducer)
     const location = useLocation()
-    const url = 'http://localhost:3000'
+    const url = 'https://huut.onrender.com'
 
     const handlePostCom = (e, commentLength) => {
         e.preventDefault()
