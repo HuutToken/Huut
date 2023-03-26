@@ -1,0 +1,125 @@
+.user-details-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.user-details {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-name {
+  padding-left: 20px;
+}
+.user-name p {
+  color: #7e7e7e;
+}
+.edit-profile-btn {
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: black;
+  border-radius: 10px;
+  font-size: small;
+  font-weight: 500;
+  background: linear-gradient(#00fff6, #00c5be);	
+  border: 1px solid #444;
+  box-shadow: 0 2px 0 #000;
+}
+
+.edit-profile-btn:hover {
+background: #292929;
+background: linear-gradient(#393939, #292929);
+color: #11f9d7;
+outline: #00fff6;
+font-weight: 500;
+}
+.edit-profile-title {
+  padding: 20px 0px;
+  border-bottom: solid 1px #dbd9d9;
+}
+.edit-profile-title-2 {
+  color: grey;
+  font-weight: 400;
+}
+.edit-profile-form {
+  padding: 20px;
+  border: solid 1px #dbd9d9;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  width: calc(100% - 20px);
+  resize: vertical;
+  border: solid 1px #0000003e;
+  font-size: 13px;
+  background: #222;	
+  background: linear-gradient(#333, #222);	
+  border: 1px solid #444;
+  box-shadow: 0 2px 0 #000;
+  color: #d8d8d8;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  text-shadow: 0 -1px 0 #000;
+}
+
+.edit-profile-form label h3 {
+  margin: 0%;
+  padding: 3px 0px;
+}
+.edit-profile-form label p {
+  margin: 0%;
+  padding: 3px 0px;
+}
+.edit-profile-form label input,
+.edit-profile-form label textarea {
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 50%;
+  
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  resize: vertical;
+  border: solid 1px #0000003e;
+  font-size: 13px;
+  background: #222;	
+  background: linear-gradient(#333, #222);	
+  border: 1px solid #444;
+  box-shadow: 0 2px 0 #000;
+  color: #d8d8d8;
+  font-size: 13px;
+  font-weight: 400;
+  text-shadow: 0 -1px 0 #000;
+}
+
+.user-submit-btn {
+  padding: 14px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: black;
+  border-radius: 10px;
+  font-size: small;
+  font-weight: 500;
+  background: linear-gradient(#00fff6, #00c5be);	
+  border: 1px solid #444;
+  box-shadow: 0 2px 0 #000;
+}
+
+.user-submit-btn:hover {
+  background: #292929;
+  background: linear-gradient(#393939, #292929);
+  color: #11f9d7;
+  outline: #00fff6;
+  font-weight: 500;
+}
+
+.user-cancel-btn {
+  padding: 14px 10px;
+  color: #00fff6;
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}

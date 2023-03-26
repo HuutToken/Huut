@@ -1,0 +1,12 @@
+.home-container-1{
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #151515;
+    color: white;
+    padding: 24px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 1100px;
+}
