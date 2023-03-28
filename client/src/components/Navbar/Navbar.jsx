@@ -38,7 +38,7 @@ const Navbar = () => {
             </Link>
             <Link to='/' className='nav-item nav-btn'>Trending</Link>
             <Link to='/newpost' className='nav-item nav-btn'>New Posts</Link>
-            <Link to='/' className='nav-item nav-btn'>Huut Token</Link>
+            <Link to='https://huuttoken.com' target="_blank" className='nav-item nav-btn'>Huut Token</Link>
             <form>
                 <input type="text" placeholder='Search...'/>
             </form>
